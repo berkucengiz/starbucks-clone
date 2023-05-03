@@ -105,7 +105,7 @@ main, footer {
     margin-left: 600px;
     width: calc(100% - 600px); 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
     main,footer{
         margin-left:0;
         width: 100%;
@@ -135,7 +135,7 @@ main, footer {
         }
     
   }
-  @media screen and (min-width:768px){
+  @media screen and (min-width:992px){
 div.left-side{
     display: flex;
     background-color: var(--color6);
@@ -164,8 +164,6 @@ div.left-side video{
     
 
 }}
-
-
 
 div.main-coffee{
     background-color: var(--color10);
@@ -203,6 +201,10 @@ footer div.accordion{
     border-bottom: 1px solid var(--color4);
     margin-bottom: 20px;
     
+}
+footer div.accordion .accordion-button{
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 footer div.accordion .accordion-item{
    
